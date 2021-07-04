@@ -1,0 +1,4 @@
+python train.py --label_nc 0 --no_instance --name monet --dataroot /home/nisnab/workspace/pix2pixHD/datasets/monet --save_epoch_freq 50
+
+
+look inside checkpoints for saved files and images and web
