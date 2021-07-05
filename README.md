@@ -20,8 +20,9 @@ Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photor
 ## Image-to-image translation at 2k/1k resolution
 - Our label-to-streetview results
 <p align='center'>  
-  <img src='imgs/teaser_label.png' width='400'/>
-  <img src='imgs/teaser_ours.jpg' width='400'/>
+  <img src='checkpoints/monet/web/images/epoch200_synthesized_image.jpg' width='400'/>
+   
+  <img src='checkpoints/monet/web/images/epoch200_real_image.jpg' width='400'/>
 </p>
 - Interactive editing results
 <p align='center'>  
