@@ -28,23 +28,19 @@ Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photor
    
 </p>
 <p align='center'>  
-   <img src='checkpoints/monet/web/images/epoch186_input_label.jpg' width='400'/>
+   <img src='checkpoints/monet/web/images/epoch186_input_label.jpg' width='300'/>
 
-  <img src='checkpoints/monet/web/images/epoch186_synthesized_image.jpg' width='400'/>
-   
+  <img src='checkpoints/monet/web/images/epoch186_synthesized_image.jpg' width='300'/>
+  <img src='checkpoints/monet/web/images/epoch186_real_image.jpg' width='300'/>
+
 </p>
-- Interactive editing results
 <p align='center'>  
-  <img src='imgs/teaser_style.gif' width='400'/>
-  <img src='imgs/teaser_label.gif' width='400'/>
-</p>
+   <img src='checkpoints/monet/web/images/epoch172_input_label.jpg' width='300'/>
 
-- Our editing interface
-<p align='center'>
-  <img src='imgs/city_short.gif' width='330'/>
-  <img src='imgs/face_short.gif' width='450'/>
-</p>
+  <img src='checkpoints/monet/web/images/epoch172_synthesized_image.jpg' width='300'/>
+  <img src='checkpoints/monet/web/images/epoch172_real_image.jpg' width='300'/>
 
+</p>
 ## Prerequisites
 - Linux or macOS
 - Python 2 or 3
