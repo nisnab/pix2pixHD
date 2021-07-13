@@ -56,26 +56,12 @@ pip install dominate
 ```
 - Clone this repo:
 ```bash
-git clone https://github.com/nisnab/pix2pixHD
+git clone https://github.com/Nisnab/pix2pixHD
 cd pix2pixHD
 ```
 
-
-### Testing
-- A few example Cityscapes test images are included in the `datasets` folder.
-- Please download the pre-trained Cityscapes model from [here](https://drive.google.com/file/d/1h9SykUnuZul7J3Nbms2QGH1wa85nbN2-/view?usp=sharing) (google drive link), and put it under `./checkpoints/label2city_1024p/`
-- Test the model (`bash ./scripts/test_1024p.sh`):
-```bash
-#!./scripts/test_1024p.sh
-python test.py --name label2city_1024p --netG local --ngf 32 --resize_or_crop none
-```
-The test results will be saved to a html file here: `./results/label2city_1024p/test_latest/index.html`.
-
-More example scripts can be found in the `scripts` directory.
-
-
 ### Dataset
-- We use the Cityscapes dataset. To train a model on the full dataset, please download it from the [official website](https://www.cityscapes-dataset.com/) (registration required).
+- We use the Cityscapes dataset. To train a model on the full dataset, please download it from the [official website](https://www.kaggle.com/shcsteven/paired-landscape-and-monetstylised-image).
 After downloading, please put it under the `datasets` folder in the same way the example images are provided.
 
 
@@ -118,6 +104,25 @@ In our test case, it trains about 80% faster with AMP on a Volta machine.
 ## More Training/Test Details
 - Flags: see `options/train_options.py` and `options/base_options.py` for all the training flags; see `options/test_options.py` and `options/base_options.py` for all the test flags.
 - Instance map: we take in both label maps and instance maps as input. If you don't want to use instance maps, please specify the flag `--no_instance`.
+
+
+
+
+
+
+
+### Testing
+- A few example Cityscapes test images are included in the `datasets` folder.
+- Please download the pre-trained Cityscapes model from [here](https://drive.google.com/file/d/1h9SykUnuZul7J3Nbms2QGH1wa85nbN2-/view?usp=sharing) (google drive link), and put it under `./checkpoints/label2city_1024p/`
+- Test the model (`bash ./scripts/test_1024p.sh`):
+```bash
+#!./scripts/test_1024p.sh
+python test.py --name label2city_1024p --netG local --ngf 32 --resize_or_crop none
+```
+The test results will be saved to a html file here: `./results/label2city_1024p/test_latest/index.html`.
+
+More example scripts can be found in the `scripts` directory.
+
 
 
 ## Acknowledgments
