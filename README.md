@@ -9,36 +9,36 @@ https://htmlpreview.github.io/
 
 <br><br><br><br>
 
-# pix2pixHD
-### [Project](https://tcwang0509.github.io/pix2pixHD/) | [Youtube](https://youtu.be/3AIpPlzM_qs) | [Paper](https://arxiv.org/pdf/1711.11585.pdf) <br>
-Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photorealistic image-to-image translation. It can be used for turning semantic label maps into photo-realistic images or synthesizing portraits from face label maps. <br><br>
-[High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs](https://tcwang0509.github.io/pix2pixHD/)  
- [Ting-Chun Wang](https://tcwang0509.github.io/)<sup>1</sup>, [Ming-Yu Liu](http://mingyuliu.net/)<sup>1</sup>, [Jun-Yan Zhu](http://people.eecs.berkeley.edu/~junyanz/)<sup>2</sup>, Andrew Tao<sup>1</sup>, [Jan Kautz](http://jankautz.com/)<sup>1</sup>, [Bryan Catanzaro](http://catanzaro.name/)<sup>1</sup>  
- <sup>1</sup>NVIDIA Corporation, <sup>2</sup>UC Berkeley  
- In CVPR 2018.  
 
 ## Image-to-image translation at 2k/1k resolution
 - Our label-to-streetview results
 <p align='center'>  
-   <img src='checkpoints/monet/web/images/epoch192_input_label.jpg' width='300'/>
+   <img src='checkpoints/monet/web/images/epoch192_input_label.jpg' width='250'/>
 
-  <img src='checkpoints/monet/web/images/epoch192_synthesized_image.jpg' width='300'/>
-   <img src='checkpoints/monet/web/images/epoch192_real_image.jpg' width='300'/>
+  <img src='checkpoints/monet/web/images/epoch192_synthesized_image.jpg' width='250'/>
+   <img src='checkpoints/monet/web/images/epoch192_real_image.jpg' width='250'/>
 
    
 </p>
 <p align='center'>  
-   <img src='checkpoints/monet/web/images/epoch186_input_label.jpg' width='300'/>
+   <img src='checkpoints/monet/web/images/epoch186_input_label.jpg' width='250'/>
 
-  <img src='checkpoints/monet/web/images/epoch186_synthesized_image.jpg' width='300'/>
-  <img src='checkpoints/monet/web/images/epoch186_real_image.jpg' width='300'/>
+  <img src='checkpoints/monet/web/images/epoch186_synthesized_image.jpg' width='250'/>
+  <img src='checkpoints/monet/web/images/epoch186_real_image.jpg' width='250'/>
 
 </p>
 <p align='center'>  
-   <img src='checkpoints/monet/web/images/epoch172_input_label.jpg' width='300'/>
+   <img src='checkpoints/monet/web/images/epoch172_input_label.jpg' width='250'/>
 
-  <img src='checkpoints/monet/web/images/epoch172_synthesized_image.jpg' width='300'/>
-  <img src='checkpoints/monet/web/images/epoch172_real_image.jpg' width='300'/>
+  <img src='checkpoints/monet/web/images/epoch172_synthesized_image.jpg' width='250'/>
+  <img src='checkpoints/monet/web/images/epoch172_real_image.jpg' width='250'/>
+
+</p>
+<p align='center'>  
+   <img src='checkpoints/monet/web/images/epoch197_input_label.jpg' width='250'/>
+
+  <img src='checkpoints/monet/web/images/epoch197_synthesized_image.jpg' width='250'/>
+  <img src='checkpoints/monet/web/images/epoch197_real_image.jpg' width='250'/>
 
 </p>
 ## Prerequisites
