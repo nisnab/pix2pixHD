@@ -11,7 +11,8 @@ https://htmlpreview.github.io/
 
 
 ## Image-to-image translation at 2k/1k resolution
-- Our label-to-streetview results
+- Our landscape Painting to Realistic Image results
+- Landscape painting on the left, Generated Images on the Middle, Actual landscape on the Right
 <p align='center'>  
    <img src='checkpoints/monet/web/images/epoch192_input_label.jpg' width='250'/>
 
