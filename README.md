@@ -2,7 +2,7 @@
 https://drive.google.com/drive/folders/1XUpxWIM3TMxlbeuPau91ihj6DiWrtTd6?usp=sharing
 
 
-https://htmlpreview.github.io/
+
 
 
 <img src='imgs/teaser_720.gif' align="right" width=360>
@@ -63,19 +63,21 @@ cd pix2pixHD
 ### Dataset
 - We use the monet styled landscape dataset from kaggle. To train a model on the full dataset, please download it from the [official website](https://www.kaggle.com/shcsteven/paired-landscape-and-monetstylised-image).
 After downloading, please put it under the `datasets/monet` folder in the same way the example images are provided.
-Folder "train_A" contains actual images.
-Folder "train_B" contains painting images.
+Folder "train_A" contains actual images of 512*256.
+Folder "train_B" contains painting images of 512*256.
 
-
+###Image Preprocessing
+The original training images were reduced to 512*256.You can use "DataResize.ipynb" to resize it as per your needs.
 
 ### Training
-- Train a model at 1024 x 512 resolution (`bash ./scripts/train_512p.sh`):
+- I have trained my images as per this configuration. You can do your changes as per your requirement:
 ```bash
 #!./scripts/train_512p.sh
-python train.py --name label2city_512p
+python train.py --label_nc 0 --no_instance --name monet --dataroot /home/nisnab/workspace/pix2pixHD/datasets/monet --save_epoch_freq 50
 ```
-- To view training results, please checkout intermediate results in `./checkpoints/label2city_512p/web/index.html`.
-If you have tensorflow installed, you can see tensorboard logs in `./checkpoints/label2city_512p/logs` by adding `--tf_log` to the training scripts.
+- To view training results, please checkout intermediate results in `./checkpoints/monet/web/index.html`.
+- For better visibility, please copy the URL of `index.html` and paste it in `https://htmlpreview.github.io/`
+If you have tensorflow installed, you can see tensorboard logs in `./checkpoints/monet/logs` by adding `--tf_log` to the training scripts.
 
 ### Multi-GPU training
 - Train a model using multiple GPUs (`bash ./scripts/train_512p_multigpu.sh`):
