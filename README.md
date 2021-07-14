@@ -61,7 +61,7 @@ cd pix2pixHD
 ```
 
 ### Dataset
-- We use the landscape dataset. To train a model on the full dataset, please download it from the [official website](https://www.kaggle.com/shcsteven/paired-landscape-and-monetstylised-image).
+- We use the monet styled landscape dataset from kaggle. To train a model on the full dataset, please download it from the [official website](https://www.kaggle.com/shcsteven/paired-landscape-and-monetstylised-image).
 After downloading, please put it under the `datasets/monet` folder in the same way the example images are provided.
 Folder "train_A" contains actual images.
 Folder "train_B" contains painting images.
