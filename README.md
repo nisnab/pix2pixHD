@@ -4,13 +4,13 @@
 
 
 
-
 <img src='imgs/teaser_720.gif' align="right" width=360>
 
 <br><br><br><br>
 
 
-## Image-to-image translation at 2k/1k resolution
+
+## Pytorch Implementation of Pix2PixHD for painting to Images.
 - Our landscape Painting to Realistic Image results
 - Landscape painting on the left, Generated Images on the Middle, Actual landscape on the Right
 <p align='center'>  
