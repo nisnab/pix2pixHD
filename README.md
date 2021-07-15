@@ -1,5 +1,5 @@
 
-https://drive.google.com/drive/folders/1XUpxWIM3TMxlbeuPau91ihj6DiWrtTd6?usp=sharing
+
 
 
 
@@ -118,7 +118,7 @@ In our test case, it trains about 80% faster with AMP on a Volta machine.
 
 ### Testing
 - A few example Cityscapes test images are included in the `datasets` folder.
-- Please download the pre-trained Cityscapes model from [here](https://drive.google.com/file/d/1h9SykUnuZul7J3Nbms2QGH1wa85nbN2-/view?usp=sharing) (google drive link), and put it under `./checkpoints/label2city_1024p/`
+- Please download the pre-trained landscapes model from [here](https://drive.google.com/drive/folders/1XUpxWIM3TMxlbeuPau91ihj6DiWrtTd6?usp=sharing) (google drive link), and put it under `./checkpoints/monet/`
 - Test the model (`bash ./scripts/test_1024p.sh`):
 ```bash
 #!./scripts/test_1024p.sh
@@ -128,8 +128,7 @@ The test results will be saved to a html file here: `./results/label2city_1024p/
 
 More example scripts can be found in the `scripts` directory.
 
-
-
+ 
 ## Acknowledgments
 This code borrows heavily from [pix2pixHD
 ](https://github.com/NVIDIA/pix2pixHD).
