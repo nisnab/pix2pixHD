@@ -10,7 +10,7 @@
 
 
 
-## Pytorch Implementation of Pix2PixHD for painting to Images.
+## Image to Image Translation using Conditional GANs(Pix2PixHD).
 - Our landscape Painting to Realistic Image results
 - Landscape painting on the left, Generated Images on the Middle, Actual landscape on the Right
 <p align='center'>  
